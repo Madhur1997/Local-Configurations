@@ -70,6 +70,8 @@ filetype plugin indent on
 colorscheme industry
 
 set laststatus=2
+set statusline=%F%m%r%h%w%=\ [%Y]\ [%{&ff}]\ [%04l,%04v]\ [%p%%]\ [%L]
+hi StatusLine ctermbg=black ctermfg=gray
 nmap <C-o> :NERDTreeToggle<CR>
 " Put your own customizations below"
 set encoding=utf-8
